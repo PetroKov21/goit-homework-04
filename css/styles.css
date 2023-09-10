@@ -394,25 +394,14 @@ padding-bottom: 24px; */
      border-radius: 50%;
      background-color: #4D5AE5;
      fill: #f4f4fd;
-     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-     
-     
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);   
  }
 
-
-
+ /* active icons */
  .team-social-linc-icon:hover,
  .team-social-linc-icon:focus {
      background-color: #404BBF;
  }
-
-
-
-
-
- /* .list-section-three {
-    background-color: #FFFFFF
-} */
 
 
  /* SECTION FORE */
@@ -574,7 +563,11 @@ padding-bottom: 24px; */
      margin-bottom: 16px;
  }
 
- .social-title-footer {
+
+
+
+
+ .social-media {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -582,29 +575,22 @@ padding-bottom: 24px; */
     color: #FFFFFF;
     margin-bottom: 16px;
  }
+
  .social-linc-list-fotter {
     display: flex;
     gap: 16px;
  }
 
- .social-linc-icon-footer {
-     transition: background-color 250ms ease-in-out;
- }
-
- .social-linc-icon-footer:hover,
- .social-linc-icon-footer:focus {
-     background-color: #31D0AA;
-
- }
 
 
- /* .social-linc-list {
+
+ .social-linc-list {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
 
-.social-linc-icon {
+.our-compani-social-linc-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -612,23 +598,14 @@ padding-bottom: 24px; */
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
-    
-    
-}
-
-.social-icon-svg {
     fill: #f4f4fd;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
 
+.our-compani-social-linc-icon:hover,
+.our-compani-social-linc-icon:focus {
+    background-color: #31D0AA;
 
 }
 
-.social-linc-icon-time {
-   fill: #f4f4fd;
-    transition: background-color 250ms ease-in-out;
-}
-
-.social-linc-icon-time:hover,
-.social-linc-icon-time:focus {
-    background-color: #404BBF;
-} */
