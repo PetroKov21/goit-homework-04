@@ -535,13 +535,18 @@ padding-bottom: 24px; */
      margin-bottom: 16px;
  }
 
+
+ .fotter-blok-logo {
+    margin-right: 120px;
+ }
+
  .logo-studio-footer {
      color: #f4f4fd;
  }
 
  .fotter-blok-div {
     display: flex;
-    gap: 120px;
+    align-items: baseline
  }
 
  .fotter-blok {
