@@ -378,13 +378,14 @@ padding-bottom: 24px; */
      margin-bottom: 8px;
  }
 
- .social-linc-list {
+/* Link to the teams social networks */
+ .team-social-linc-list {
      display: flex;
      gap: 24px;
      justify-content: center;
  }
 
- .social-linc-icon {
+ .team-social-linc-icon {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -392,24 +393,16 @@ padding-bottom: 24px; */
      height: 40px;
      border-radius: 50%;
      background-color: #4D5AE5;
-     
-     
- }
-
- .social-icon-svg {
      fill: #f4f4fd;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
+     
+     
  }
 
- .social-linc-icon-time {
-    fill: #f4f4fd;
-     transition: background-color 250ms ease-in-out;
- }
 
- .social-linc-icon-time:hover,
- .social-linc-icon-time:focus {
+
+ .team-social-linc-icon:hover,
+ .team-social-linc-icon:focus {
      background-color: #404BBF;
  }
 
@@ -603,3 +596,39 @@ padding-bottom: 24px; */
      background-color: #31D0AA;
 
  }
+
+
+ /* .social-linc-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.social-linc-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    
+    
+}
+
+.social-icon-svg {
+    fill: #f4f4fd;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+.social-linc-icon-time {
+   fill: #f4f4fd;
+    transition: background-color 250ms ease-in-out;
+}
+
+.social-linc-icon-time:hover,
+.social-linc-icon-time:focus {
+    background-color: #404BBF;
+} */
