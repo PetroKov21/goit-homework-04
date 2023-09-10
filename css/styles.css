@@ -493,14 +493,14 @@ padding-bottom: 24px; */
      transition: transform 300ms ease-in-out;
  }
 
- .portfolio-list-link:hover .overley,
- .portfolio-list-link:focus .overley {
+ .portfolio-list-item:hover .overley,
+ .portfolio-list-item:focus .overley {
      transform: translateY(0%);
 
  }
 
- .portfolio-list-link:hover,
- .portfolio-list-link:focus {
+ .portfolio-list-item:hover,
+ .portfolio-list-item:focus {
      box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
  }
 
@@ -589,6 +589,7 @@ padding-bottom: 24px; */
     gap: 24px;
     justify-content: center;
 }
+
 
 .our-compani-social-linc-icon {
     display: flex;
