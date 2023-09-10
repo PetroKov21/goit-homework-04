@@ -23,9 +23,9 @@
      margin-bottom: 0;
  }
 
-a {
-    display: inline-block;
-}  
+ a {
+     display: inline-block;
+ }
 
  ul,
  ol {
@@ -61,7 +61,6 @@ padding-bottom: 24px; */
  /* HEADER section */
  .page-header {
      border-bottom: 1px solid #e7e9fc
-     
  }
 
  .page-header-container {
@@ -184,11 +183,12 @@ padding-bottom: 24px; */
      padding: 188px 0;
      background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/bgre.jpeg);
      background-size: cover;
-     
+
 
  }
+
  .text-one {
-    text-align: center;
+     text-align: center;
  }
 
  .titel-h-one {
@@ -197,14 +197,14 @@ padding-bottom: 24px; */
      margin-left: auto;
      margin-right: auto;
      color: var(--white, #FFF);
-     
+
      font-family: Roboto;
      font-size: 56px;
      font-style: normal;
      font-weight: 700;
      line-height: 1.07;
      letter-spacing: 1.12;
-     max-width: 496px; 
+     max-width: 496px;
  }
 
 
@@ -233,7 +233,7 @@ padding-bottom: 24px; */
      line-height: 1.5;
      letter-spacing: 0.04em;
      color: #ffffff;
-     
+
  }
 
  .hero .button-type:hover,
@@ -243,28 +243,24 @@ padding-bottom: 24px; */
 
  /* SECTION TWO */
 
-.benefits-icon-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 264px;
-height: 112px;
-flex-shrink: 0;
-    border-radius: 4px;
-border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-background: var(--CLOUD, #F4F4FD);
-padding-top: 24px;
-padding-bottom: 24px;
-margin-bottom: 8px;
+ .benefits-icon-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 264px;
+     height: 112px;
+     flex-shrink: 0;
+     border-radius: 4px;
+     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+     background: var(--CLOUD, #F4F4FD);
+     padding-top: 24px;
+     padding-bottom: 24px;
+     margin-bottom: 8px;
 
 
-}
+ }
 
-.benefits-icon {
-    
-
-
-}
+ .benefits-icon {}
 
  .benefits {
      padding-top: 120px;
@@ -315,7 +311,7 @@ margin-bottom: 8px;
  .team-list {
      display: flex;
      gap: 24px;
-    
+
  }
 
  .our-time-list {
@@ -358,33 +354,35 @@ margin-bottom: 8px;
      text-align: center;
      margin-bottom: 8px;
  }
-.social-linc-list {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-}
 
-.social-linc-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-}
+ .social-linc-list {
+     display: flex;
+     gap: 24px;
+     justify-content: center;
+ }
+
+ .social-linc-icon {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: #4D5AE5;
+ }
 
  .social-icon-svg {
-    fill:#FFF;
+     fill: #FFF;
 
  }
 
  .social-linc-icon-time {
-    transition: background-color 250ms ease-in-out;
+     transition: background-color 250ms ease-in-out;
  }
- .social-linc-icon-time:hover, .social-linc-icon-time:focus {
-    background-color:  #404BBF
-    ;
+
+ .social-linc-icon-time:hover,
+ .social-linc-icon-time:focus {
+     background-color: #404BBF;
  }
 
 
@@ -393,13 +391,13 @@ margin-bottom: 8px;
 
  /* .list-section-three {
     background-color: #FFFFFF
-} */ 
+} */
 
 
  /* SECTION FORE */
  .portfolio-list-item {
-   width: calc((100% - 24 * 2px) / 3); 
-}
+     width: calc((100% - 24 * 2px) / 3);
+ }
 
  .title-sectiosection-fore {
      color: #2E2F42;
@@ -454,7 +452,7 @@ margin-bottom: 8px;
 
  /* FOOTER SECTION */
 
-    
+
  .footer-logo {
      display: inline-block;
      color: #4d5ae5;
@@ -468,9 +466,10 @@ margin-bottom: 8px;
      text-decoration: none;
      margin-bottom: 16px;
  }
+
  .logo-studio-footer {
-    color: #f4f4fd;
-}
+     color: #f4f4fd;
+ }
 
 
  .fotter-blok {
@@ -490,20 +489,21 @@ margin-bottom: 8px;
  }
 
  .title-footer {
-color:  #FFF;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.32px;
+     color: #FFF;
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.32px;
  }
 
  .social-linc-icon-footer {
-    transition: background-color 250ms ease-in-out;
-}
+     transition: background-color 250ms ease-in-out;
+ }
 
-.social-linc-icon-footer:hover, .social-linc-icon-footer:focus {
-    background-color: #31D0AA;
+ .social-linc-icon-footer:hover,
+ .social-linc-icon-footer:focus {
+     background-color: #31D0AA;
 
-} 
+ }
