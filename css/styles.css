@@ -105,8 +105,8 @@ padding-bottom: 24px; */
 
 
  /* active link */
- .navigation-menu .first:focus,
- .first:hover {
+ .navigation-menu .navigation:focus,
+ .navigation:hover {
      color: #404BBF;
 
 
@@ -114,12 +114,12 @@ padding-bottom: 24px; */
 
 
  .first {
-    color: #2E2F42; 
+    color: #404bbf; 
  }
 
  .navigation {
     position: relative;
-    color: #404bbf;
+     color: #2E2F42;
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
@@ -131,7 +131,7 @@ padding-bottom: 24px; */
 
  }
 
- .first:hover::after {
+ .navigation:hover::after {
     content: '';
     position: absolute;
     bottom: -1px;
