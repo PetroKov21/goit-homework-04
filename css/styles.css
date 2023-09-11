@@ -112,14 +112,9 @@ padding-bottom: 24px; */
 
  }
 
-
- .first {
-    color: #404bbf; 
- }
-
  .navigation {
     position: relative;
-     color: #2E2F42;
+     color: #404bbf;
      font-size: 16px;
      font-style: normal;
      font-weight: 500;
@@ -131,7 +126,9 @@ padding-bottom: 24px; */
 
  }
 
- .navigation:hover::after {
+
+
+ .navigation::after {
     content: '';
     position: absolute;
     bottom: -1px;
@@ -141,9 +138,9 @@ padding-bottom: 24px; */
     height: 4px;
     border-radius: 2px;
     background-color: #404bbf; 
-
  }
 
+ .navigation:hover::after
 
 
 
