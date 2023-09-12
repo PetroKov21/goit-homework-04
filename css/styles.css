@@ -112,6 +112,7 @@ padding-bottom: 24px; */
 
  }
 
+
  .navigation {
     position: relative;
      color: #2E2F42;
@@ -126,9 +127,13 @@ padding-bottom: 24px; */
 
  }
 
+ .carent {
+    position: relative;
+    color: #404BBF;
+}
+ 
 
-
- .navigation:hover:after {
+ .carent:hover:after {
     content: '';
     position: absolute;
     bottom: -1px;
