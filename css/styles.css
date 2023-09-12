@@ -206,7 +206,7 @@ padding-bottom: 24px; */
      background-repeat: no-repeat;
      background-position: center;
      padding: 188px 0;
-     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(/images/bgre.jpeg);
+     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/bgre.jpeg);
      background-size: cover;
 
 
